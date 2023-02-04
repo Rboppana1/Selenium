@@ -1,4 +1,4 @@
-package com.edureka.testng;
+package com.practice.testng;
 
 import java.util.concurrent.TimeUnit;
 

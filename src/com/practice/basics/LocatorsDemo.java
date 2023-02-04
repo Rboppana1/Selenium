@@ -1,4 +1,4 @@
-package com.edureka.basics;
+package com.practice.basics;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.edureka.testng;
+package com.practice.testng;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 

@@ -1,19 +1,18 @@
-/*
-package com.edurekha.controls;
+package com.practice.controls;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class MultiSelectDropDown {
+public class HandlingHiddenDivisionPopup {
 
 	public static WebDriver driver=null;
 	 public static WebDriverWait wait = null;
-
+	 
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Lakshmi\\eclipse-workspace\\Selenium\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -21,17 +20,15 @@ public class MultiSelectDropDown {
 		driver.manage().window().maximize();
        driver.manage().deleteAllCookies();
        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-       driver.get("https://");
+       driver.get("https://www.cleartrip.com");
        
-	WebElement listBox = driver.findElement(By.id("list2"));
-	Select multi = new Select(listBox);
-	multi.selectByIndex(2);
-	multi.selectByValue("rcr");
-	multi.selectByVisibleText("Chennai");
-	
-	multi.deselectByValue("gd");
-
+       
+      WebElement departOn = driver.findElement(By.xpath("//strong[text()='Depart on']"));
+      departOn.click();
+      
+      WebElement date = driver.findElement(By.xpath("(//a[text()='14'])[1]"));
+      date.click();
+      
 	}
 
 }
-*/

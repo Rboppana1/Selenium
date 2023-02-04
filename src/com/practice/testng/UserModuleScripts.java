@@ -1,4 +1,4 @@
-package com.edureka.testng;
+package com.practice.testng;
 
 import org.testng.Assert;
 import org.testng.Reporter;

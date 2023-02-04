@@ -1,4 +1,4 @@
-package com.edureka.basics;
+package com.practice.basics;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

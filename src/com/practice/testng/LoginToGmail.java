@@ -1,3 +1,4 @@
+package com.practice.testng;
 /*package com.edureka.testng;
 
 import org.openqa.selenium.By;

@@ -1,3 +1,4 @@
+package com.practice.waits;
 /*
 package com.edurekha.waits;
 import java.util.concurrent.TimeUnit;
